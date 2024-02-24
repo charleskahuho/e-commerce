@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ebuy, ecommerce, online shopping">
+    <meta name="description" content="A simple e-commerce site">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary-subtle sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">E-BUY</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form action="#" class="d-flex">
+                <input type="text" placeholder="search E-buy" class="form-control me-2">
+                <button type="button" class="btn btn-primary">search</button>
+            </form>
+            <div id="navmenu" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="" class="nav-link">Hello and sign in</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Returns And orders</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ul class="nav nav-tabs fixed">
+      <li class="nav-item">
+        <a class="nav-link " aria-current="page" href="#">All</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Today's Deals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAQ's</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#" tabindex="-1" >Sell</a>
+      </li>
+    </ul>
+    <div class="container my-3">
+        <table class="table table-hover table-striped table-striped-columns">
+            <h1 class="h1 text-center">My orders</h1>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">order id</th>
+              <th scope="col">order details</th>
+              <th scope="col">delivery date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>029382e293</td>
+              <td>gaming pc</td>
+              <td>2/2/2001</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>12h349e4</td>
+              <td>Tea cups</td>
+              <td>2/2/22</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>123ty676e</td>
+              <td>laptop bag with laptop and mousepad combo pack</td>
+              <td>5/5/2021</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderplace">
+          Place order
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="orderplace" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Place order</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
